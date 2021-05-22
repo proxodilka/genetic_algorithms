@@ -1,0 +1,6 @@
+from .crossover_politics import crossover_pc_politics, crossover_politics
+from .genetic_politics import genetic_politics
+from .heuristic_politics import heuristic_politics
+from .mutation_politics import mutation_politics
+from .pairs_generation_politics import pairs_generation_politics
+from .selection_politics import selection_politics
