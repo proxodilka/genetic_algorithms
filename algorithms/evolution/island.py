@@ -250,7 +250,7 @@ class IslandsManager:
             island_populations = [ray.get(ft) for ft in futures]
             self.log(island_populations, (i + 1) * sync_freq)
             # print_statistic(island_populations)
-            if i > 0 and (i % 2) == 0:
+            if False and i > 0 and (i % 2) == 0:
                 new_populations = self.round_merge(island_populations)
             else:
                 new_populations = self.merge(island_populations)
